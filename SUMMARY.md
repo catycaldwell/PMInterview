@@ -2,8 +2,7 @@
 
 * [PM常见面试题](pm-interview-readme.md)
 
-    * [PM面试 - 产品设计题](pm-interview-product-design-questions.md)
-    * [PM面试 - 情境冲突题](pm-interview-conflict-resolve.md)
+    * [PM面试 - 产品设计题](pm-interview-product-design.md)
     * [PM面试 - Case Interview](pm-interview-case-interview.md)
     * [PM面试 - 行业理解题](pm-interview-industry-understanding.md)
     * [PM面试 - 个人考察题](pm-interview-personality.md)
