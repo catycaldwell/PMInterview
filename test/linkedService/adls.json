@@ -1,0 +1,18 @@
+{
+	"name": "adls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://yanacaitestadls.azuredatalakestore.net/webhdfs/v1",
+			"servicePrincipalId": "9642cd87-f2d4-401f-aae1-0de1e3a07a25",
+			"servicePrincipalKey": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"tenant": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+			"subscriptionId": "7f31cba8-b597-4129-b158-8f21a7395bd0",
+			"resourceGroupName": "yanacaitest"
+		}
+	}
+}

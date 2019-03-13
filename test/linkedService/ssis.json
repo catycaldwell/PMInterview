@@ -1,0 +1,17 @@
+{
+	"name": "ssis",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			}
+		},
+		"connectVia": {
+			"referenceName": "yanacaitest",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

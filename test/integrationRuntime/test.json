@@ -1,0 +1,31 @@
+{
+	"name": "test",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"nodeSize": "Standard_A4_v2",
+				"numberOfNodes": 1,
+				"maxParallelExecutionsPerNode": 1,
+				"dataFlowRuntime": {
+					"computeType": "General",
+					"coreCount": 8,
+					"timeToLiveInMinutes": 60
+				}
+			},
+			"ssisProperties": {
+				"catalogInfo": {
+					"catalogServerEndpoint": "yanacaissis.database.windows.net",
+					"catalogAdminUserName": "yanacaitest",
+					"catalogAdminPassword": {
+						"type": "SecureString",
+						"value": "**********"
+					}
+				},
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded"
+			}
+		}
+	}
+}
